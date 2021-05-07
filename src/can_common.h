@@ -7,7 +7,7 @@
 #define CAN_TELEMETRY       0xA0
 
 #define CAN_BMS_DEFAULT_ID  0x01
-#define CAN_BMS_REQUEST     0x200 + CAN_BMS_DEFAULT_ID
-#define CAN_BMS_RETURN      0x240 + CAN_BMS_DEFAULT_ID
+#define CAN_BMS_REQUEST(x)  (0x200 + (x))
+#define CAN_BMS_RETURN(x)   (0x240 + (x))
 
 #endif
