@@ -22,6 +22,15 @@
 #define CAN_ACC_OPERATION       0x60
 #define CAN_ACC_STATUS          0x71
 
+#define STATUS_HEADLIGHTS		0x0
+#define STATUS_BRAKELIGHTS		0x1
+#define STATUS_HORN				0x2
+#define STATUS_HAZARDS			0x3
+#define STATUS_RIGHT_SIGNAL		0x4
+#define STATUS_LEFT_SIGNAL		0x5
+#define STATUS_WIPERS			0x6
+#define STATUS_NULL				0xFF
+
 // Telemetry
 // 0x80 - 0x9F
 // 0x180 - 0x19F
@@ -32,5 +41,8 @@
 // 0x241 - 0x27F
 #define CAN_BMS_REQUEST         0x201
 #define CAN_BMS_RESPONSE        0x241
+
+#define CAN_MOTOR_ENABLE 0x22
+#define CAN_THROTTLE 0x21
 
 #endif
