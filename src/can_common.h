@@ -42,7 +42,7 @@
 #define CAN_BMS_REQUEST         0x201
 #define CAN_BMS_RESPONSE        0x241
 
-#define CAN_MOTOR_ENABLE 0x22
-#define CAN_THROTTLE 0x21
+#define CAN_MOTOR_ENABLE		0x22
+#define CAN_THROTTLE			0x21
 
 #endif
