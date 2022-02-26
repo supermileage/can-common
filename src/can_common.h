@@ -1,20 +1,11 @@
 #ifndef _CAN_COMMON_H_
 #define _CAN_COMMON_H_
 
-// Motor Enable 
-// 0x0 - 0x1F
-// 0x100 - 0x11F
-// NO MESSAGES DEFINED
-
-// Throttle
-// 0x20 - 0x3F
-// 0x120 - 0x13F
-// NO MESSAGES DEFINED
-
-// Motor Controller
-// 0x40 - 0x5F
-// 0x140 - 0x15F
-// NO MESSAGES DEFINED
+// Steering
+// 0x0 - 0x5F
+// 0x100 - 0x15F
+#define STEERING_MOTOR_ENABLE   0x01
+#define STEERING_THROTTLE       0x02
 
 // Accessories
 // 0x60 - 0x7F
