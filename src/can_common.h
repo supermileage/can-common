@@ -4,8 +4,8 @@
 // Steering
 // 0x0 - 0x5F
 // 0x100 - 0x15F
-#define STEERING_MOTOR_ENABLE   0x01
-#define STEERING_THROTTLE       0x02
+#define STEERING_THROTTLE   0x01
+#define STEERING_STATUS     0x02
 
 // Accessories
 // 0x60 - 0x7F
