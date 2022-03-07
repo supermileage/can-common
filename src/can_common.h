@@ -26,9 +26,9 @@
 // 0x201 - 0x23F
 // 0x241 - 0x27F
 //      TX
-#define CAN_TINYBMS_RESPONSE        0x241
+#define CAN_TINYBMS_RESPONSE    0x241
 //      RX
-#define CAN_TINYBMS_REQUEST         0x201
+#define CAN_TINYBMS_REQUEST     0x201
 
 
 #endif
