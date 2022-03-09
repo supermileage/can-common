@@ -30,5 +30,13 @@
 //      RX
 #define CAN_TINYBMS_REQUEST     0x201
 
+// Orion BMS
+// 0x280 - 0x31F
+//      TX
+#define CAN_ORIONBMS_STATUS     0x280
+#define CAN_ORIONBMS_PACK       0x281
+#define CAN_ORIONBMS_CELL       0x282
+#define CAN_ORIONBMS_TEMP       0x283
+
 
 #endif
