@@ -39,5 +39,9 @@
 #define CAN_ORIONBMS_CELL       0x282
 #define CAN_ORIONBMS_TEMP       0x283
 
+// Throttle
+// 0x320 - 0x380
+//      TX
+#define THROTTLE_HEARTBEAT      0x320
 
 #endif
