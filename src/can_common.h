@@ -43,5 +43,7 @@
 // 0x320 - 0x380
 //      TX
 #define THROTTLE_HEARTBEAT      0x320
+#define CAN_MOTOR_RPM           0x321
+#define CAN_MOTOR_TEMP          0x322
 
 #endif
