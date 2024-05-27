@@ -23,14 +23,6 @@
 #define CAN_TELEMETRY_GPS_DATA	0x80
 #define CAN_TELEMETRY_BMS_DATA	0x81
 
-// TinyBMS
-// 0x201 - 0x23F
-// 0x241 - 0x27F
-//      TX
-#define CAN_TINYBMS_RESPONSE    0x241
-//      RX
-#define CAN_TINYBMS_REQUEST     0x201
-
 // Orion BMS
 // 0x280 - 0x31F
 //      TX
