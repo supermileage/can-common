@@ -38,4 +38,12 @@
 #define CAN_MOTOR_RPM           0x321
 #define CAN_MOTOR_TEMP          0x322
 
+// Speeduino CAN bridge
+// 0x400 - 0x40F
+#define CAN_SPEEDUINO_STATUS    0x400
+#define CAN_SPEEDUINO_SENSORS   0x401
+#define CAN_SPEEDUINO_TUNE      0x402
+#define CAN_SPEEDUINO_DIAG      0x403
+#define CAN_SPEEDUINO_EXTRA     0x404
+
 #endif
