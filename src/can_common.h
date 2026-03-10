@@ -1,5 +1,5 @@
-#ifndef _CAN_COMMONH
-#define _CAN_COMMONH
+#ifndef _CAN_COMMON_H
+#define _CAN_COMMON_H
 
 // Steering
 // 0x0 - 0x5F
