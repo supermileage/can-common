@@ -40,11 +40,11 @@
 #define CAN_ORIONBMS_TEMP       0x283
 
 //Speeduino ECU
-// 3100 - 3104
+// 100 - 104
 //    TX
-#define CAN_ECU_STATUS          0x3100
-#define CAN_ECU_SENSORS         0x3101
-#define CAN_ECU_CORRECTION      0x3102
-#define CAN_ECU_LOOPS           0x3103
-#define CAN_ECU_RPMDOT          0x3104
+#define CAN_ECU_STATUS          0x100
+#define CAN_ECU_SENSORS         0x101
+#define CAN_ECU_CORRECTION      0x102
+#define CAN_ECU_LOOPS           0x103
+#define CAN_ECU_RPMDOT          0x104
 #endif
