@@ -39,6 +39,8 @@
 #define CAN_ORIONBMS_CELL       0x282
 #define CAN_ORIONBMS_TEMP       0x283
 
+#define CAN_RPM                 0x3A0
+
 //Speeduino ECU
 // 100 - 104
 //    TX
