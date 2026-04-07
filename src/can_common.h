@@ -50,4 +50,4 @@
 #define CAN_ORIONBMS_TEMP       0x283
 
 // Urban Motor Controller
-#define CAN_URBAN_CON_RPM       0x3A0
+#define CAN_URBAN_MC_RPM       0x3A0
