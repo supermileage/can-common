@@ -23,6 +23,16 @@
 #define CAN_TELEMETRY_GPS_DATA    0x80
 #define CAN_TELEMETRY_BMS_DATA    0x81
 
+// Speeduino ECU
+// 100 - 104
+//      TX
+#define CAN_ECU_STATUS          0x100
+#define CAN_ECU_SENSORS         0x101
+#define CAN_ECU_CORRECTION      0x102
+#define CAN_ECU_LOOPS           0x103
+#define CAN_ECU_RPMDOT          0x104
+#endif
+
 // TinyBMS
 // 0x201 - 0x23F
 // 0x241 - 0x27F
@@ -39,14 +49,5 @@
 #define CAN_ORIONBMS_CELL       0x282
 #define CAN_ORIONBMS_TEMP       0x283
 
-#define CAN_ORIONBMS_RPM        0x3A0
-
-//Speeduino ECU
-// 100 - 104
-//    TX
-#define CAN_ECU_STATUS          0x100
-#define CAN_ECU_SENSORS         0x101
-#define CAN_ECU_CORRECTION      0x102
-#define CAN_ECU_LOOPS           0x103
-#define CAN_ECU_RPMDOT          0x104
-#endif
+// Urban Motor Controller
+#define CAN_URBAN_CON_RPM       0x3A0
